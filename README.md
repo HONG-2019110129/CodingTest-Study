@@ -89,8 +89,8 @@ git commit -m "[플랫폼] 문제이름/난이도/걸린시간"
         <sub><b>조민주</b></sub></a><br/>
     </td>
     <td align="center">
-      <a href="https://github.com/user-attachments/assets/940add9b-0d8f-4bb9-891f-82f221655f74">
-        <img src="_" width="110px;" alt=""/><br />
+      <a href="https://github.com/HONG-2019110129">
+        <img src="https://github.com/user-attachments/assets/940add9b-0d8f-4bb9-891f-82f221655f74" width="110px;" alt=""/><br />
         <sub><b>홍지승</b></sub></a><br />
     </td>
   </tr>
