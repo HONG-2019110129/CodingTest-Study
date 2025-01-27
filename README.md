@@ -76,7 +76,7 @@ git commit -m "[플랫폼] 문제이름/난이도/걸린시간"
 | -------- | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------- |
 | 1주차    | 20250123             | [큐2](https://www.acmicpc.net/problem/18258) | [스택](https://www.acmicpc.net/problem/10828) | [괄호](https://www.acmicpc.net/problem/9012) | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [카드2](https://www.acmicpc.net/problem/2164)                                                           | `진행 완료`   |
 | 1주차    | [20250126](https://github.com/WIZMAY/CodingTest-Study/tree/main/SOF/20250126)              | [CPTI](https://softeer.ai/practice/11002) | [[한양대 HCPC 2023] Pipelined](https://softeer.ai/practice/9496) |   |  |                                                         | `진행 완료`   |
-| 2주차    | 20250130              | [Hanyang Popularity Exceeding Competition](https://softeer.ai/practice/9495) | [함께하는 효도](https://softeer.ai/practice/7727) |   |  |                                                         | `진행 예정`   |
+| 2주차    | [20250130](https://github.com/WIZMAY/CodingTest-Study/tree/main/SOF/20250130)              | [Hanyang Popularity Exceeding Competition](https://softeer.ai/practice/9495) | [함께하는 효도](https://softeer.ai/practice/7727) |   |  |                                                         | `진행 예정`   |
 | 2주차    | 20250202              |  |  |   |  |                                                         | `진행 예정`   |
 ---
 
