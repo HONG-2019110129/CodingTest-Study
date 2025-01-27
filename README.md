@@ -76,8 +76,8 @@ git commit -m "[플랫폼] 문제이름/난이도/걸린시간"
         <sub><b>강지훈</b></sub></a><br />
     </td>
     <td align="center">
-      <a href="https://github.com/JhiWhoonKang">
-        <img src="_" width="110px;" alt=""/><br />
+      <a href="https://github.com/SungHHo">
+        <img src="https://github.com/user-attachments/assets/6ef499bd-8aa4-4b32-9845-944003868009" width="110px;" alt=""/><br />
         <sub><b>손성호</b></sub></a><br />
     </td>
     <td align="center">
