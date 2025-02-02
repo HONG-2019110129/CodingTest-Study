@@ -69,7 +69,8 @@ void dfs(int matchIndex, int points[4], double prob)
     printf("\n=================\n");
 }
 
-int main() {
+int main()
+{
     // 루돌프 힘 입력
     (void)scanf("%lf %lf %lf %lf", &F[0], &F[1], &F[2], &F[3]);
 
