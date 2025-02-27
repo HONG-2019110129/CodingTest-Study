@@ -22,7 +22,7 @@ int main() {
     for (char ch : input) 
     {
         // '('를 만나면 value에 2 곱
-        if (ch == '(') 
+        if (ch == '(')
         {
             value *= 2;
             _stack.push(ch);        // '(' push
