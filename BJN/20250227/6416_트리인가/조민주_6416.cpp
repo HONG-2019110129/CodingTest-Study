@@ -30,8 +30,8 @@ bool isTree(map<int, int>& inDegree, set<int>& nodes) {
 int main() {
     int u, v, caseNum = 1;
     while (true) {
-        map<int, int> inDegree;
-        set<int> nodes;
+        map<int, int> inDegree;    // [노드번호, 간선수]
+        set<int> nodes;    // [노드번호]
         bool isEmpty = true;
         
         while (cin >> u >> v && (u >= 0 && v >= 0)) {
