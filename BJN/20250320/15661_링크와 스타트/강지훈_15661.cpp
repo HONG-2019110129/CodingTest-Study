@@ -1,5 +1,9 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
+
+
+using namespace std;
 
 int main(void)
 {
@@ -17,13 +21,28 @@ int main(void)
 	//	목표: 스타트 팀과 링크 팀 능력치 차이 최소화
 
 	int N;	// 총 인원
-	vector<vector<int>> players(N+1, 0);	// (1~N번)
+	cin >> N;
+	vector<vector<int>> players(N+1, vector(N+1, 0));	// (1~N번)
 	for(int i=1;i<=N;++i)
 	{
 		for(int j=1;j<=N;++j)
 		{
 			cin >> players[i][j];
 		}
+	}
+
+	int start_team_value = 0;
+	int link_team_value = 0;
+	
+	
+	
+	for(int i=1;i<=N;++i)
+	{
+		for(int j=1;j<=N;++j)
+		{
+			cout << players[i][j] << " ";
+		}
+		cout << "\n";
 	}
 
 	return 0;
