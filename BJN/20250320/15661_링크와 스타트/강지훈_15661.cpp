@@ -22,7 +22,7 @@ int main(void)
 
 	int N;	// 총 인원
 	cin >> N;
-	vector<vector<int>> players(N+1, vector(N+1, 0));	// (1~N번)
+	vector<vector<int>> players(N + 1, vector<int>(N + 1, 0));	// (1~N번)
 	for(int i=1;i<=N;++i)
 	{
 		for(int j=1;j<=N;++j)
@@ -33,9 +33,38 @@ int main(void)
 
 	int start_team_value = 0;
 	int link_team_value = 0;
+	// 조합
+	// 4명 -> (1, 2) (1, 3) (1, 4) (2, 1) (2, 3) (2, 4) (3, 1) (3, 2) (3, 4) (4, 1) (4, 2) (4, 3) 12
+	// 5명 -> 5, 1|5, 2|5, 3| N * (N-1) 경우의 수
 	
-	
-	
+	// 인당 선택할 수 있는 팀: 2가지
+	// N명 => 2^N
+	// 근데 모두 한쪽을 선택할 경우: 2가지
+	// 총 경우의 수 2^N -2
+
+	int totalCase = 1 << N;
+	for (int _case = 0; _case < totalCase; ++_case)
+	{
+		int startTeam = 0;
+		int linkTeam = 0;
+
+		if(_case&1)
+
+		if(_case == )
+
+		for (int i = 1; i <= N; ++i)
+		{
+			for (int j = i + 1; j <= N; ++j)
+			{
+				bool A = _case & (1 << (i - 1));
+				bool B = _case & (1 << (j - 1));
+
+
+			}
+		}
+	}
+
+
 	for(int i=1;i<=N;++i)
 	{
 		for(int j=1;j<=N;++j)
